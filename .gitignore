@@ -1,0 +1,13 @@
+target/
+*.jar
+*.class
+
+src/main/resources/privateKey.pem
+
+.idea/
+*.iml
+
+*.log
+*.tmp
+
+
