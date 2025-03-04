@@ -39,7 +39,6 @@ cd chat_api
     ```bash
     sudo systemctl status postgresql 
 ```
-
 2. **Create Database and User**:
    - Log in to PostgreSQL as the postgres user:
    ```bash
