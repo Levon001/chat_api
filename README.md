@@ -44,14 +44,16 @@ cd chat_api
    - Log in to PostgreSQL as the postgres user:
    ```bash
    psql -U postgres 
-```
+   ```
+
    - Execute these SQL commands to set up the database and user:
+
    ```sql
    CREATE DATABASE chat_db;
    CREATE USER chat_user WITH PASSWORD 'your_secure_password';
    GRANT ALL PRIVILEGES ON DATABASE chat_db TO chat_user;
    \q 
-```
+   ```
   - Replace your_secure_password with a strong password of your choice.
 
 3. **Set Up Tables (Optional)**:
