@@ -33,21 +33,25 @@ cd chat_api
 1. **Start PostgreSQL**:
    - Run the following command to start the PostgreSQL service:
      ```bash
-     sudo systemctl start postgresql ```
+     sudo systemctl start postgresql 
+```
    - Verify it’s running:
     ```bash
-    sudo systemctl status postgresql ```
+    sudo systemctl status postgresql 
+```
 
 2. **Create Database and User**:
    - Log in to PostgreSQL as the postgres user:
    ```bash
-   psql -U postgres ```
+   psql -U postgres 
+```
    - Execute these SQL commands to set up the database and user:
    ```sql
    CREATE DATABASE chat_db;
    CREATE USER chat_user WITH PASSWORD 'your_secure_password';
    GRANT ALL PRIVILEGES ON DATABASE chat_db TO chat_user;
-   \q ```
+   \q 
+```
   - Replace your_secure_password with a strong password of your choice.
 
 3. **Set Up Tables (Optional)**:
